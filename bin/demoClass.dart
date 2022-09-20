@@ -19,4 +19,13 @@ void main(){
   print('Car milge ${alto.milage=18} km/ltr');
   print('alto model of ${car.brand}');
   alto.show();
+
+  car i10 = car();
+  print('Car color is ${i10.color='white'} ');
+  print('Car model is ${i10.year=2018}');
+  print('Car milge ${i10.milage=18} km/ltr');
+  print('i10 model of ${car.brand='hundai'}');
+  i10.show();
+
+  print('${car.brand}');
 }
