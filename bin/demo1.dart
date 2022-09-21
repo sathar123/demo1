@@ -24,6 +24,23 @@ void main() {
 
   const year = '2022';  //value constant at complietime
 
+  var username='admin';
+  var password = '123';
+  var entname='admin';
+  var entpassword ='123';
+   late bool login;
+
+  if(username == entname && password == entpassword) {
+    login = true;
+
+  }else{
+    login = false;
+  }
+if(login){
+  print('Login sucess');
+}else{
+  print('Login failed');
+}
 
 
 
