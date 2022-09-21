@@ -1,7 +1,7 @@
 class Student{
-  String? name;
-  int? age;
-  String? place;
+  late String name;
+  late int age;
+  late String place;
   static String institution ='Luminar';
   static String course='Flutter';
   
