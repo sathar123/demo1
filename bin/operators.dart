@@ -60,4 +60,32 @@ void main(){
   print(s>>2);
   print(s<<2);
 
+  dynamic d = 20;
+  print(d is int);
+
+  print('ternary operator');
+  int age=20;
+  bool result = age >=18 ? true : false ;
+  //syntax >> condition ? true statement : false statement ;
+
+  int mark =40;
+  String res = mark < 40 ? 'Faild exam' : 'Passed exam' ;
+  print(res);
+
+  String username = 'admin';
+  String inputuser = 'admin';
+  String password = '123';
+  String inputpass = '12';
+
+  var login = (username == inputuser && password == inputpass) ? 'Login sucess' : 'login failure';
+  print(login);
+
+  var num1 = 45;
+  var num2 =87;
+  var lar = num1>num2 ? 'num1 largest':'num2 largest';
+  print(lar);
+  int n1 =4,n2=5,n3=8;
+  var lar3 = (n1 >n2) ? (n1>n3 ? n1:n3): (n2>n3? n2:n3);
+  print(lar3);
+
 }
