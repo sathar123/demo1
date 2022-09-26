@@ -4,5 +4,5 @@ void Display(int age,String name){
 }
 
 void main(){
-  Display(20, 'Sathar');
+  Display(22,'Sathar');
 }
