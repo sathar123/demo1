@@ -57,5 +57,5 @@ void main(){
   for(var value in names){
     print(value);
   }
-
+ print(names.where((names) => names.startsWith('s')));
 }
