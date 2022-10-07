@@ -1,15 +1,21 @@
 class sample{
-  String name = 'manu';
+  String? name;
+  int? age;
+  String? college;
 
-  sample(){
-    print('Default constructor');
+  sample(String name,int age,String college){
+    this.name=name;
+    this.age=age;
+    this.college=college;
   }
-  void sum(int a,{int b =10}){
-    print(a+b);
+  void show(){
+    print('Name :$name');
+    print('Age :$age');
+    print('College :$college');
   }
 }
 void main(){
-  sample obj = sample();
-  obj.sum(45);
-  print(obj.name);
+  sample obj = sample('shimas', 25, 'hm college');
+  obj.show();
+
 }
